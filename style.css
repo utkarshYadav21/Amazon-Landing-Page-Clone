@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 55px;
+    width: 128px;
+}
+.logo{
+    height: 55px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.location{
+    width: 80px;
+    padding-left: 27px;
+}
+.add-1{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left:15px ;
+}
+.add-2{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.location-logo{
+    display: flex;
+    align-items: center;
+
+}
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 660px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 45px;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+    border-right: 1px solid #131921;
+}
+.search-bar{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    border-left: 1px solid #131921;
+    background-color: #febd68;
+    font-size: 1.2rem;
+}
+.language{
+    background-color: #131921;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in{
+    width: 140px;
+    height: 40px;
+    padding-left: 5px;
+
+}
+
+.accounts{
+    font-size: 1rem;
+    display: flex;
+}
+div.accounts p{
+    margin-right: 2px;
+    text-align: center;
+}
+.order{
+    width: 70px;
+    padding-left: 8px;
+}
+.ord{
+    font-size: 1rem;
+}
+.ret{
+    font-size: 0.8rem;
+}
+.cart{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+}
+.low-navbar{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.all{
+    display: flex;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    height: 40px;
+}
+.allp{
+    margin-left: 5px;
+}
+.low-nav-content p{
+    display: inline;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 0.9rem;
+}
+.main-section{
+    background-image: url("PC_Hero_3000x1200_NTA_2X._CB599338253_.jpg");
+    height: 450px;
+    background-size: cover;
+}
+.shop-section{
+    height: 600px;
+    display: grid;
+    grid-template-columns:  20px 320px 320px 320px 320px 20px;
+    grid-template-rows: 140px 140px 280px;
+    gap: 13px;
+    background-color: #f7e4ab;
+
+}
+.box1{
+    grid-area: 1/2/3/3;
+    padding: 20px 0px 15px;
+}
+.box2{
+    grid-area: 1/3/3/4;
+
+}
+.box3{
+    grid-area: 1/4/3/5;
+
+}
+.box4{
+    grid-area: 1/5/2/6;
+
+}
+.box5{
+    grid-area: 3/2/4/3;
+
+}
+.box6{
+    grid-area: 3/3/4/4;
+
+}
+.box7{
+    grid-area: 3/4/4/5;
+
+}
+.box8{
+    grid-area: 3/5/4/6;
+
+}
+.box{
+    background-color: white;
+    margin-top: 10px;
+}
+span{
+    font-size: 0.8rem;
+    color: blue;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-img{
+    height: 186px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.box-img3{
+    height: 210px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.box-img5{
+    height: 170px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.grid-btn{
+    width: 300px;
+    height: 30px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    height: 600px;
+    background-color: #131921;
+    margin-top: 10px;
+}
+.top{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+}
+.heading{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.middle{
+    color: white;
+    background-color: #232F3E;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 12px;
+}
+ul p{
+    margin-top: 45px;
+    font-weight: bold;
+}
+.middle2{
+    height: 70px;
+    display: flex;
+    background-color: #232F3E;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.bottom{
+    margin-top: 20px;
+    color: white;
+    height: 80px;
+    display: block;
+    font-size: 0.90rem;
+}
+.bottom1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bottom2{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
